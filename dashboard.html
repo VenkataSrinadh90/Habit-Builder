@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f3f6f8">
+    <title>Dashboard | Habit Builder</title>
+    <script src="https://kit.fontawesome.com/b5c7b9251d.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <aside class="sidebar" aria-label="Dashboard sidebar">
+        <a class="sidebar-brand" href="index.html">Habit Builder</a>
+
+        <div class="sidebar-navs">
+            <section class="sidebar-section" aria-labelledby="workspace-label">
+                <p class="nav-label" id="workspace-label">Workspace</p>
+                <nav class="navigation" aria-label="Main navigation">
+                    <a href="dashboard.html" aria-current="page"><i class="fa-solid fa-display" aria-hidden="true"></i><span>Dashboard</span></a>
+                    <a href="#habits"><i class="fa-solid fa-list-check" aria-hidden="true"></i><span>My Habits</span></a>
+                    <a href="#analytics"><i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i><span>Analytics</span></a>
+                    <a href="#achievements"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>Achievements</span></a>
+                </nav>
+            </section>
+
+            <section class="sidebar-section personal-section" aria-labelledby="personal-label">
+                <p class="nav-label" id="personal-label">Personal</p>
+                <nav class="navigation" aria-label="Personal navigation">
+                    <a href="#profile"><i class="fa-solid fa-user" aria-hidden="true"></i><span>Profile</span></a>
+                    <a href="#settings"><i class="fa-solid fa-gear" aria-hidden="true"></i><span>Settings</span></a>
+                </nav>
+            </section>
+        </div>
+
+
+        <div class="sidebar-footer">
+            <span class="footer-mark"><i class="fa-solid fa-leaf" aria-hidden="true"></i></span>
+            <span>Progress over perfection.</span>
+        </div>
+    </aside>
+    
+    <!-- Top Navbar -->
+    <main class="dashboard-main">
+        <header class="topbar">
+            <div class="topbar-title">
+                <h1>Dashboard</h1>
+            </div>
+
+            <nav class="topbar-actions" aria-label="Account and display">
+                <a class="topbar-icon-link" href="#settings" aria-label="Appearance settings" title="Appearance settings">
+                    <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                </a>
+                <a class="profile-link" href="#profile" aria-label="Your profile">
+                    <span class="profile-avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
+                    <span class="profile-name">My profile</span>
+                </a>
+            </nav>
+        </header>
+    </main>
+
+    <!-- Section 1 -->
+     <section class="greet">
+        <h2>Welcome</h2>
+        <i class="fa-regular fa-hand-spock" style="color: rgb(255, 212, 59);"></i>
+     </section>
+</body>
+</html>
