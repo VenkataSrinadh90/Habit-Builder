@@ -69,8 +69,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const message = form.querySelector(".form-message");
             if (message) {
-                message.textContent = "Your details look good. Account services are not connected in this demo yet.";
+                message.textContent = "Signing in... Redirecting to dashboard.";
             }
+            setTimeout(() => {
+                window.location.href = "dashboard.html";
+            }, 600);
         });
     });
 
